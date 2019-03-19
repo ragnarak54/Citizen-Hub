@@ -9,18 +9,18 @@ import android.view.View;
 import android.view.WindowManager;
 
 public class MainActivity extends FragmentActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 
-        setContentView(R.layout.fragment_sample);
-
+        //setContentView(R.layout.fragment_sample);
     }
 
     // https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
@@ -52,5 +52,14 @@ public class MainActivity extends FragmentActivity {
                 new String[]{getPackageName()});
 
         startLockTask();
+    }
+
+    public void goHome(View view) {
+        //goes home
+        setContentView(R.layout.activity_main);
+    }
+
+    public void goSamp(View view) {
+        setContentView(R.layout.fragment_sample);
     }
 }
