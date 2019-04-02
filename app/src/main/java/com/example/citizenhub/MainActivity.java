@@ -15,7 +15,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
+        // https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
@@ -62,4 +62,10 @@ public class MainActivity extends FragmentActivity {
     public void goSamp(View view) {
         setContentView(R.layout.fragment_sample);
     }
+
+    public void goWeather(View view) {
+        setContentView(R.layout.fragment_weather);
+    }
 }
+
+
