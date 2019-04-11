@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Sample">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:id="@+id/sample_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/toHomefrom2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="goHome"
-        android:text="Return Home" />
+        <Button
+            android:id="@+id/toHomefrom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goHome"
+            android:text="Return Home" />
 
-</FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+
+        <com.google.android.gms.maps.MapView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/map">
+
+        </com.google.android.gms.maps.MapView>
+
+    </LinearLayout>
+
+</RelativeLayout>

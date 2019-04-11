@@ -3,10 +3,14 @@ package com.example.citizenhub;
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
 
 public class MainActivity extends FragmentActivity {
 
@@ -15,12 +19,10 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
+        // https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
-
-        //setContentView(R.layout.fragment_sample);
     }
 
     // https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
@@ -55,11 +57,18 @@ public class MainActivity extends FragmentActivity {
     }
 
     public void goHome(View view) {
-        //goes home
+        // goes home
         setContentView(R.layout.activity_main);
     }
 
     public void goSamp(View view) {
-        setContentView(R.layout.fragment_sample);
+        // goes to sample layout fragment
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        Sample frag = new Sample();
+        fragmentTransaction.replace(R.id.activity_main, frag);
+        fragmentTransaction.commit();
+
     }
 }
