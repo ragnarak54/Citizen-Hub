@@ -1,12 +1,19 @@
 package com.example.citizenhub;
 
+import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 
 /**
@@ -58,12 +65,26 @@ public class Sample extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.INTERNET)
+                != PackageManager.PERMISSION_GRANTED) {
+            // Permission is not granted
+            Log.e("PERM", "we don't have permission");
+        } else {
+            Log.e("PERM", "we made it!!!");
+        }
+        WebView calendar = getView().findViewById(R.id.webview);
+        WebSettings calSettings = calendar.getSettings();
+        calSettings.setJavaScriptEnabled(true);
+        calendar.loadUrl("https://www.google.com");
+        calendar.setWebViewClient((new WebViewClient()));
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+
         return inflater.inflate(R.layout.fragment_sample, container, false);
 
     }
