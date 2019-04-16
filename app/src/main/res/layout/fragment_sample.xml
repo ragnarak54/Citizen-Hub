@@ -19,16 +19,14 @@
             android:onClick="goHome"
             android:text="Return Home" />
 
+        <com.google.android.gms.maps.MapView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/map"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/hello_blank_fragment" />
-
-        <com.google.android.gms.maps.MapView android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:id="@+id/map">
-
-        </com.google.android.gms.maps.MapView>
 
     </LinearLayout>
 

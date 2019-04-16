@@ -1,20 +1,18 @@
 package com.example.citizenhub;
 
-
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
@@ -30,17 +28,10 @@ public class Sample extends Fragment {
         // Required empty public constructor
     }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        createMapView(savedInstanceState);
-        defineMapBehavior(new LatLng(33.423729, -111.939185)); // Brickyard coords
-    }
-
-    private void createMapView(Bundle savedInstanceState) {
-        sampleMap = (MapView) getView().findViewById(R.id.map);
+    private void createMapView(Bundle savedInstanceState, View rootView) {
+        sampleMap = (MapView) rootView.findViewById(R.id.map);
         sampleMap.onCreate(savedInstanceState);
+        sampleMap.onResume();
         sampleMap.setLayoutParams(new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 1000));
@@ -49,6 +40,7 @@ public class Sample extends Fragment {
     }
 
     private void defineMapBehavior(final LatLng latLong) {
+
         sampleMap.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(final GoogleMap googleMap) {
@@ -72,7 +64,6 @@ public class Sample extends Fragment {
                     }
                 });
 
-                sampleMap.onResume();
             }
         });
     }
@@ -80,11 +71,14 @@ public class Sample extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-//        TextView textView = new TextView(getActivity());
-//        textView.setText(R.string.hello_blank_fragment);
+        View rootView = inflater.inflate(R.layout.fragment_sample, container, false);
 
-        return inflater.inflate(R.layout.fragment_sample, container, false);
+        createMapView(savedInstanceState, rootView);
+        defineMapBehavior(new LatLng(33.423729, -111.939185)); // Brickyard coords
+
+        return rootView;
     }
+
     @Override
     public final void onResume() {
         super.onResume();
