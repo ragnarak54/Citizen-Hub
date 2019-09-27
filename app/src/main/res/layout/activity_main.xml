@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,6 +8,7 @@
     android:id="@+id/activity_main">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -20,9 +21,23 @@
         android:id="@+id/to2fromHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
         android:onClick="goSamp"
         android:text="Frag2"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintBottom_toTopOf="@+id/dbTest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.475" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/dbTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

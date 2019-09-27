@@ -3,14 +3,14 @@ package com.example.citizenhub;
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.LinearLayout;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity {
 
@@ -23,6 +23,9 @@ public class MainActivity extends FragmentActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+
+        // Hello world Firestore
+        TextView dbText = (TextView) findViewById(R.id.dbTest);
     }
 
     // https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
