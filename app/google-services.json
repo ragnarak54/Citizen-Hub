@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "490187915720",
+    "firebase_url": "https://citizenhubrecent.firebaseio.com",
+    "project_id": "citizenhubrecent",
+    "storage_bucket": "citizenhubrecent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490187915720:android:a0fc6df13b6f613b8b00fd",
+        "android_client_info": {
+          "package_name": "com.example.citizenhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490187915720-9moufsbueo9bh4ss02b7n87rq1tf7749.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9cYQduVeafxcFCOcrzbhxUzWd6oEtXVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490187915720-9moufsbueo9bh4ss02b7n87rq1tf7749.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
