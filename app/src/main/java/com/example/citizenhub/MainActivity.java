@@ -4,13 +4,28 @@ import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.os.Bundle;
+import android.provider.DocumentsContract;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
+
+import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.widget.TextView;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends FragmentActivity {
 
@@ -24,8 +39,25 @@ public class MainActivity extends FragmentActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 
-        // Hello world Firestore
-        TextView dbText = (TextView) findViewById(R.id.dbTest);
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+        // Put a test key and value...
+        Map<String, String> testPut = new HashMap<>();
+        testPut.put("Hello", "World!");
+        db.collection("test").document("testDoc").set(testPut);
+        // Now retrieve it!
+        db.collection("test").document("testDoc").get()
+                .addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                        if(task.isSuccessful()) {
+                            DocumentSnapshot doc = task.getResult();
+                            if(doc.exists()) {
+                                Log.d("Jack's Tag: ", doc.getData().toString());
+                            }
+                        }
+                    }
+                });
     }
 
     // https://stackoverflow.com/questions/8631095/how-to-prevent-going-back-to-the-previous-activity
