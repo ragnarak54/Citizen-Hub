@@ -3,14 +3,17 @@ package com.example.citizenhub;
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.FragmentActivity;
 
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +25,6 @@ public class MainActivity extends FragmentActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
 
-
-        // Hello world Firestore
-        TextView dbText = (TextView) findViewById(R.id.dbTest);
 
     }
 
@@ -71,6 +71,10 @@ public class MainActivity extends FragmentActivity {
     public void goWeather(View view) {
         setContentView(R.layout.fragment_weather);
     }
+
+    public void goMap(View view) {  setContentView(R.layout.activity_google_map);  }
+
+
 }
 
 
