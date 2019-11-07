@@ -10,6 +10,9 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import com.google.maps.android.data.kml.KmlLayer;
+import java.lang.Object;
+
 import androidx.fragment.app.FragmentActivity;
 
 //import android.support.v7.app.AppCompatActivity;
@@ -44,9 +47,30 @@ public class googleMap extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng campus = new LatLng(33.423514, -111.937178);
+        mMap.addMarker(new MarkerOptions().position(campus).title("Marker on campus"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(campus));
+
+        showMap();
+    }
+
+    public void showMap(){
+
+        try{
+
+            KmlLayer layer1 = new KmlLayer( mMap, R.raw.cityhub_bus_routes, getApplicationContext());
+
+            layer1.addLayerToMap();
+
+            KmlLayer layer2 = new KmlLayer( mMap, R.raw.cityhub_except_bus, getApplicationContext());
+
+            layer2.addLayerToMap();
+
+        }
+        catch (Exception e)
+        {
+            //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
+        }
     }
 
 }
