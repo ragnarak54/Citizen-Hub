@@ -11,6 +11,5 @@
 /build
 /captures
 .externalNativeBuild
-*.kml
 google-services.json
 citizenhubrecent-be247bb3ee67.json
