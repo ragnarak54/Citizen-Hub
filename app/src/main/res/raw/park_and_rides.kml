@@ -1,0 +1,3547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>park_and_rides</name>
+    <description/>
+    <Style id="icon-1644-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>cityhub_park_rides</name>
+      <Placemark>
+        <name><![CDATA[Foothills Recreation & Aquatic Center]]></name>
+        <description><![CDATA[LOCATION: Union Hills Rd &amp; 55th Ave<br>CITY: Glendale<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 573<br>ROUTE_2: 575<br>ROUTE_3: 59<br>ROUTE_4: 186<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value><![CDATA[Union Hills Rd &amp; 55th Ave]]></value>
+          </Data>
+          <Data name="CITY">
+            <value>Glendale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>573</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>575</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>59</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>186</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.179776,33.654965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glendale City Lot</name>
+        <description><![CDATA[LOCATION: 59th Ave and Myrtle Ave<br>CITY: Glendale<br>PUBLIC_OWN: Yes<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 109<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 0<br>ROUTE_1: 59<br>ROUTE_2: Grand Ave Limited<br>ROUTE_3: GUS I<br>ROUTE_4: GUS II<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>59th Ave and Myrtle Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Glendale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>109</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>59</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>Grand Ave Limited</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>GUS I</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>GUS II</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.186178,33.542223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chandler City Lot</name>
+        <description><![CDATA[LOCATION: Chicago St and Arizona Ave<br>CITY: Chandler<br>PUBLIC_OWN: Yes<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 104<br>ROUTE_2: 112<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Chicago St and Arizona Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Chandler</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>104</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>112</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.842134,33.30122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food City Plaza</name>
+        <description><![CDATA[LOCATION: Arizona Ave and Ray Rd<br>CITY: Chandler<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 541<br>ROUTE_2: 112<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Arizona Ave and Ray Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Chandler</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>541</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>112</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.840539,33.321351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Carl's Jr.]]></name>
+        <description><![CDATA[LOCATION: Warner Rd and Alma School Rd<br>CITY: Chandler<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 541<br>ROUTE_2: 104<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Warner Rd and Alma School Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Chandler</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>541</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>104</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.859543,33.334679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metrocenter Transit Center</name>
+        <description><![CDATA[LOCATION: Mission Ln and Metro Park W<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 215<br>COVERED_SPACES: 194<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 4<br>ROUTE_1: I-17 RAPID<br>ROUTE_2: 27<br>ROUTE_3: 35<br>ROUTE_4: 90<br>ROUTE_5: 106<br>ROUTE_6: 122<br>Address: 9617 N Metro Parkway East]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Mission Ln and Metro Park W</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>215</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>194</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>I-17 RAPID</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>27</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>35</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>90</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>106</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>122</value>
+          </Data>
+          <Data name="Address">
+            <value>9617 N Metro Parkway East</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.123522,33.572776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Costco - Tempe</name>
+        <description><![CDATA[LOCATION: Priest Dr and Elliot Rd<br>CITY: Tempe<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 56<br>ROUTE_2: 108<br>ROUTE_3: 522<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Priest Dr and Elliot Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>56</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>108</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>522</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.961974,33.34822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cobblestone Village</name>
+        <description><![CDATA[LOCATION: Warner Rd and McClintock Dr<br>CITY: Tempe<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 81<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Warner Rd and McClintock Dr</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>81</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.912077,33.333985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempe Sports Complex</name>
+        <description><![CDATA[LOCATION: Hardy Dr and Warner Rd<br>CITY: Tempe<br>PUBLIC_OWN: Yes<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 65<br>ROUTE_2: 522<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Hardy Dr and Warner Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>65</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>522</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.953946,33.336546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food City Plaza</name>
+        <description><![CDATA[LOCATION: Scottsdale Rd and McKellips Rd<br>CITY: Tempe<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 72<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Scottsdale Rd and McKellips Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>72</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.92576,33.450107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skysong</name>
+        <description><![CDATA[LOCATION: Innovation Pl/McDowell Rd<br>CITY: Scottsdale<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 6<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 0<br>ROUTE_1: 17<br>ROUTE_2: 72<br>ROUTE_3: 514<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Innovation Pl/McDowell Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>6</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>17</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>72</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>514</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.923756,33.465435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scottsdale Community College</name>
+        <description><![CDATA[LOCATION: Chaparral Rd and 92nd St<br>CITY: Scottsdale<br>PUBLIC_OWN: Yes<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 514<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 9000 E Chaparral Road]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Chaparral Rd and 92nd St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>514</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>9000 E Chaparral Road</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.87942,33.510235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miller Plaza</name>
+        <description><![CDATA[LOCATION: Montecito Ave and Miller Rd<br>CITY: Scottsdale<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: Miller Rd Trolley<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Montecito Ave and Miller Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Miller Rd Trolley</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.918056,33.499942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Costco - Scottsdale</name>
+        <description><![CDATA[LOCATION: 83rd Pl and Butherus Dr<br>CITY: Scottsdale<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 81<br>ROUTE_2: 170<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>83rd Pl and Butherus Dr</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>81</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>170</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.901967,33.623458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chaparral Park</name>
+        <description><![CDATA[LOCATION: Hayden Rd and Jackrabbit Rd<br>CITY: Scottsdale<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 81<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Hayden Rd and Jackrabbit Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>81</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.908315,33.517559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Valley Community College</name>
+        <description><![CDATA[LOCATION: 32nd St and Union Hills<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 16<br>ROUTE_2: 39<br>ROUTE_3: 186<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 18401 N 32nd St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>32nd St and Union Hills</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>16</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>39</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>186</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>18401 N 32nd St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.012738,33.652356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Mirage Walmart</name>
+        <description><![CDATA[LOCATION: 129th Ave &amp; Thunderbird<br>CITY: El Mirage<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: Yes<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 571<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value><![CDATA[129th Ave &amp; Thunderbird]]></value>
+          </Data>
+          <Data name="CITY">
+            <value>El Mirage</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>Yes</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>571</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.338042,33.609639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Target Shopping Center</name>
+        <description><![CDATA[LOCATION: McClintock Rd and Baseline Rd<br>CITY: Tempe<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 77<br>ROUTE_2: 81<br>ROUTE_3: 521<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>McClintock Rd and Baseline Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>77</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>81</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>521</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.907644,33.378834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grace Community Church</name>
+        <description><![CDATA[LOCATION: Southern Ave and Dorsey Ln<br>CITY: Tempe<br>PUBLIC_OWN: No<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: NA<br>COVERED_SPACES: NA<br>TOTAL_BIKE_SPACES: NA<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: NA<br>ROUTE_1: 61<br>ROUTE_2: 520<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Southern Ave and Dorsey Ln</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>61</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>520</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.91815,33.393572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dunlap / 19th Ave Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 19th Ave/Dunlap<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 415<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 16<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 16<br>ROUTE_1: Light Rail<br>ROUTE_2: 19<br>ROUTE_3: 90<br>ROUTE_4: 122<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1927 W Dunlap]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>19th Ave/Dunlap</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>415</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>16</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>16</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>19</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>90</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>122</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1927 W Dunlap</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.100953,33.566925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desert Sky Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 79th Ave/Thomas Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 70<br>COVERED_SPACES: 70<br>TOTAL_BIKE_SPACES: 11<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 7<br>ROUTE_1: I-10 West RAPID<br>ROUTE_2: 29<br>ROUTE_3: 75<br>ROUTE_4: 83<br>ROUTE_5: 685<br>ROUTE_6: MARY<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>79th Ave/Thomas Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>70</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>70</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>11</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>7</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>I-10 West RAPID</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>29</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>75</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>83</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>685</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>MARY</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.228667,33.478109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[24th St & Baseline Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: 24th Street &amp; Baseline Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 209<br>COVERED_SPACES: 209<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: NA<br>BIKE_RACKS: 8<br>ROUTE_1: C/SME<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value><![CDATA[24th Street &amp; Baseline Rd]]></value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>209</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>209</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>NA</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>C/SME</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.028998,33.379557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mesa Dr / Main St Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Mesa Dr &amp; Main St<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 448<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 12<br>ROUTE_1: Light Rail<br>ROUTE_2: 40<br>ROUTE_3: 120<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 440 E Main St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value><![CDATA[Mesa Dr &amp; Main St]]></value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>448</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>40</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>120</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>440 E Main St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.822165,33.415645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scottsdale Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Scottsdale Rd and Thunderbird Rd<br>CITY: Scottsdale<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 275<br>COVERED_SPACES: 173<br>TOTAL_BIKE_SPACES: 5<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 5<br>ROUTE_1: 72<br>ROUTE_2: 154<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 13665 N Scottsdale Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Scottsdale Rd and Thunderbird Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>275</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>173</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>5</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>5</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>72</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>154</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>13665 N Scottsdale Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.924768,33.610506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Surprise Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Grand Ave and Bell Rd<br>CITY: Surprise<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 230<br>COVERED_SPACES: 216<br>TOTAL_BIKE_SPACES: 3<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 3<br>ROUTE_1: 571<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 13327 W Bell Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Grand Ave and Bell Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Surprise</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>230</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>216</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>3</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>3</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>571</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>13327 W Bell Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.346307,33.637975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Apache & Dorsey Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: Apache Blvd and Dorsey Ln<br>CITY: Tempe<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 190<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 6<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 6<br>ROUTE_1: Light Rail<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1215 S Dorsey Lane]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Apache Blvd and Dorsey Ln</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>190</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>6</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1215 S Dorsey Lane</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.917697,33.415521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[McClintock Dr. & Apache Blvd. Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: McClintock Dr and Apache Blvd<br>CITY: Tempe<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 300<br>COVERED_SPACES: 249<br>TOTAL_BIKE_SPACES: 24<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 24<br>ROUTE_1: Light Rail<br>ROUTE_2: Orbit Mercury<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1811 E Apache Blvd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>McClintock Dr and Apache Blvd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>300</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>249</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>24</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>24</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>Orbit Mercury</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1811 E Apache Blvd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.908586,33.413896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Price-101 Fwy/Apache Blvd Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Loop 101 and Apache Blvd<br>CITY: Tempe<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 693<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 6<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 6<br>ROUTE_1: Light Rail<br>ROUTE_2: 40<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 2235 E Apache Blvd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Loop 101 and Apache Blvd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>693</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>6</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>40</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>2235 E Apache Blvd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.889685,33.413883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19th Ave and Montebello Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Montebello Ave and 19th Ave<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 794<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 8<br>ROUTE_1: Light Rail<br>ROUTE_2: 15<br>ROUTE_3: 19<br>ROUTE_4: 60<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1825 W Montebello Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Montebello Ave and 19th Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>794</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>15</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>19</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>60</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1825 W Montebello Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.098677,33.518717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19th Ave and Camelback Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 19th Ave and Camelback Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 410<br>COVERED_SPACES: 287<br>TOTAL_BIKE_SPACES: 1<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 1<br>ROUTE_1: Light Rail<br>ROUTE_2: 19<br>ROUTE_3: 50<br>ROUTE_4: 60<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1827 W Camelback Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>19th Ave and Camelback Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>410</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>287</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>1</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>1</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>19</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>50</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>60</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1827 W Camelback Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.098719,33.509052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Washington & 38th St Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: Washington St and 38th St<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 190<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 2<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 2<br>ROUTE_1: Light Rail<br>ROUTE_2: 1<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 3763 E Washington St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Washington St and 38th St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>190</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>2</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>2</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>1</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>3763 E Washington St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.999391,33.448704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Central & Camelback Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: Central Ave and Camelback Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 135<br>COVERED_SPACES: 114<br>TOTAL_BIKE_SPACES: 4<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 4<br>ROUTE_1: Light Rail<br>ROUTE_2: 0<br>ROUTE_3: 50<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 169 W Camelback Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Central Ave and Camelback Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>135</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>114</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>50</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>169 W Camelback Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.07812,33.50895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Happy Valley Rd Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Happy Valley Rd and 29th Ave<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 512<br>COVERED_SPACES: 512<br>TOTAL_BIKE_SPACES: 7<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 3<br>ROUTE_1: I-17 Rapid<br>ROUTE_2: 35<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 24725 N 29th Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Happy Valley Rd and 29th Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>512</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>512</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>7</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>3</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>I-17 Rapid</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>35</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>24725 N 29th Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.120167,33.710396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[7th Ave & Camelback Rd Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: 7th Ave and Camelback Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 123<br>COVERED_SPACES: 77<br>TOTAL_BIKE_SPACES: 4<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 4<br>ROUTE_1: Light Rail<br>ROUTE_2: 8<br>ROUTE_3: 50<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 519 W Camelback Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>7th Ave and Camelback Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>123</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>77</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>50</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>519 W Camelback Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.080635,33.508988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[27th Ave & Baseline Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: 27th Ave and Baseline Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 212<br>COVERED_SPACES: 212<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 0<br>ROUTE_1: 19<br>ROUTE_2: 35<br>ROUTE_3: 77<br>ROUTE_4: 251<br>ROUTE_5: C/SM RAPID<br>ROUTE_6: NA<br>Address: 7610 S 27th Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>27th Ave and Baseline Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>212</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>212</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>19</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>35</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>77</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>251</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>C/SM RAPID</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>7610 S 27th Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.117094,33.377153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shea/SR-51 (Dreamy Draw) Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 32nd St and Shea Blvd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 370<br>COVERED_SPACES: 344<br>TOTAL_BIKE_SPACES: 19<br>BIKE_LOCKERS: 5<br>BIKE_RACKS: 14<br>ROUTE_1: SR 51 RAPID<br>ROUTE_2: 16<br>ROUTE_3: 80<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 10418 N 33rd St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>32nd St and Shea Blvd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>370</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>344</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>19</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>5</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>14</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>SR 51 RAPID</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>16</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>80</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>10418 N 33rd St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.011483,33.580647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peoria Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Peoria Ave and 83rd Ave<br>CITY: Peoria<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 82<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 12<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 6<br>ROUTE_1: Grand Ave Limited<br>ROUTE_2: 106<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 8323 W Peoria Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Peoria Ave and 83rd Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Peoria</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>82</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>12</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>6</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Grand Ave Limited</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>106</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>8323 W Peoria Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.237479,33.582335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bell/I-17 (Deer Valley) Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Bell Road and 29th Ave<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 350<br>COVERED_SPACES: 340<br>TOTAL_BIKE_SPACES: 15<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 7<br>ROUTE_1: I-17 RAPID<br>ROUTE_2: 27<br>ROUTE_3: 170<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 16808 N Black Canyon Hwy]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Bell Road and 29th Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>350</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>340</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>15</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>7</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>I-17 RAPID</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>27</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>170</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>16808 N Black Canyon Hwy</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.117643,33.638803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bell Rd/SR 51 Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 36th St and Bell Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 377<br>COVERED_SPACES: 377<br>TOTAL_BIKE_SPACES: 10<br>BIKE_LOCKERS: 10<br>BIKE_RACKS: 0<br>ROUTE_1: SR 51 RAPID<br>ROUTE_2: 170<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 3598 E Phelps Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>36th St and Bell Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>377</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>377</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>10</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>10</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>SR 51 RAPID</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>170</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>3598 E Phelps Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.004475,33.639267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>40th St and Pecos Rd Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 40th St and Pecos Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 906<br>COVERED_SPACES: 562<br>TOTAL_BIKE_SPACES: 12<br>BIKE_LOCKERS: 12<br>BIKE_RACKS: 0<br>ROUTE_1: I-10 East Rapid<br>ROUTE_2: 108<br>ROUTE_3: ALEX<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 16864 S 40th St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>40th St and Pecos Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>906</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>562</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>12</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>12</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>I-10 East Rapid</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>108</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>ALEX</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>16864 S 40th St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.998889,33.29326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sunnyslope TC &  Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: 3rd St and Dunlap Ave<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 45<br>COVERED_SPACES: 45<br>TOTAL_BIKE_SPACES: 4<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 0<br>ROUTE_1: SMART<br>ROUTE_2: 0<br>ROUTE_3: 8<br>ROUTE_4: 12<br>ROUTE_5: 80<br>ROUTE_6: 90<br>Address: 8930 N 3rd St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>3rd St and Dunlap Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>45</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>45</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>SMART</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>80</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>90</value>
+          </Data>
+          <Data name="Address">
+            <value>8930 N 3rd St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.0691,33.566852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>79th Ave/ I-10 Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 79th Ave and McDowell Rd<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 607<br>COVERED_SPACES: 607<br>TOTAL_BIKE_SPACES: 14<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 10<br>ROUTE_1: I-10 West RAPID<br>ROUTE_2: 17<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1509 N 79th Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>79th Ave and McDowell Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>607</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>607</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>14</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>10</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>I-10 West RAPID</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>17</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1509 N 79th Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.228516,33.464482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Avondale Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Avondale Blvd and Roosevelt St<br>CITY: Avondale<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 370<br>COVERED_SPACES: 107<br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 6<br>BIKE_RACKS: 0<br>ROUTE_1: 563<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 11401 W Hilton Way]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Avondale Blvd and Roosevelt St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Avondale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>370</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>107</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>563</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>11401 W Hilton Way</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.305151,33.45623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buckeye Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Jackrabbit Trail and Palm Ln<br>CITY: Buckeye<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 250<br>COVERED_SPACES: 80<br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 0<br>ROUTE_1: 563<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 1901 N Jackrabbit Trail]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Jackrabbit Trail and Palm Ln</value>
+          </Data>
+          <Data name="CITY">
+            <value>Buckeye</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>250</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>80</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>563</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>1901 N Jackrabbit Trail</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.48013,33.468976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chandler Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Hamilton St and Germann Rd<br>CITY: Chandler<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 460<br>COVERED_SPACES: 156<br>TOTAL_BIKE_SPACES: 11<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 7<br>ROUTE_1: 542<br>ROUTE_2: 112<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 2100 S Hamilton St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Hamilton St and Germann Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Chandler</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>460</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>156</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>11</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>7</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>542</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>112</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>2100 S Hamilton St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.833662,33.275708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilbert Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Page Ave and Oak St<br>CITY: Gilbert<br>PUBLIC_OWN: Yes<br>DEDICATED: No<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 250<br>COVERED_SPACES: 85<br>TOTAL_BIKE_SPACES: 18<br>BIKE_LOCKERS: 6<br>BIKE_RACKS: 12<br>ROUTE_1: 136<br>ROUTE_2: 531<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 216 N Oak St]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Page Ave and Oak St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Gilbert</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>No</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>250</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>85</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>18</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>136</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>531</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>216 N Oak St</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.792539,33.354874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glendale Park-and-Ride</name>
+        <description><![CDATA[LOCATION: 99th Ave and Glendale Ave<br>CITY: Glendale<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 388<br>COVERED_SPACES: 345<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 4<br>ROUTE_1: 573<br>ROUTE_2: 70<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 7099 N 99th Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>99th Ave and Glendale Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Glendale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>388</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>345</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>573</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>70</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>7099 N 99th Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.271587,33.538912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goodyear Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Cornerstone Blvd and Dysart Rd<br>CITY: Goodyear<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 400<br>COVERED_SPACES: 328<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 0<br>ROUTE_1: 562<br>ROUTE_2: NA<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 13183 W Cornerstone Blvd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Cornerstone Blvd and Dysart Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Goodyear</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>400</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>328</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>562</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>13183 W Cornerstone Blvd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.343578,33.460002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Superstitions Springs Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Southern Ave and Power Rd<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 200<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 20<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 12<br>ROUTE_1: 40<br>ROUTE_2: 45<br>ROUTE_3: 61<br>ROUTE_4: 108<br>ROUTE_5: 184<br>ROUTE_6: 533<br>Address: 6555 E Southern Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Southern Ave and Power Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>200</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>20</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>40</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>45</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>61</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>108</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>184</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>533</value>
+          </Data>
+          <Data name="Address">
+            <value>6555 E Southern Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.688805,33.387476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Main St. & Sycamore Park-and-Ride]]></name>
+        <description><![CDATA[LOCATION: Main St and Sycamore<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 802<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 13<br>BIKE_LOCKERS: 1<br>BIKE_RACKS: 12<br>ROUTE_1: Light Rail<br>ROUTE_2: 30<br>ROUTE_3: 40<br>ROUTE_4: 45<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 107 N Sycamore]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Main St and Sycamore</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>802</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>13</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>1</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>30</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>40</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>45</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>107 N Sycamore</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.870359,33.416506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Power Rd Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Power Rd and Preston St<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 194<br>COVERED_SPACES: 23<br>TOTAL_BIKE_SPACES: 24<br>BIKE_LOCKERS: 12<br>BIKE_RACKS: 12<br>ROUTE_1: 184<br>ROUTE_2: 535<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 3201 N Power Rd]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Power Rd and Preston St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>194</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>23</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>24</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>12</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>184</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>535</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>3201 N Power Rd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.683506,33.471525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilbert Rd and McDowell Rd Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Gilbert Rd and McDowell Rd<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 220<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 16<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 8<br>ROUTE_1: 136<br>ROUTE_2: 535<br>ROUTE_3: NA<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 2831 N Gilbert Road]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Gilbert Rd and McDowell Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>220</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>16</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>136</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>535</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>2831 N Gilbert Road</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.786053,33.467387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Mesa Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Juanita Ave/Country Club Dr<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 305<br>COVERED_SPACES: 0<br>TOTAL_BIKE_SPACES: 20<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 12<br>ROUTE_1: 112<br>ROUTE_2: 531<br>ROUTE_3: 541<br>ROUTE_4: NA<br>ROUTE_5: NA<br>ROUTE_6: NA<br>Address: 461 W Juanita Ave]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Juanita Ave/Country Club Dr</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>305</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>20</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>112</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>531</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>541</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>NA</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>NA</value>
+          </Data>
+          <Data name="Address">
+            <value>461 W Juanita Ave</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.841772,33.381586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilbert Rd/Main St Park and Ride</name>
+        <description><![CDATA[LOCATION: Gilbert Rd and Main St<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: <br>COVERED_SPACES: <br>TOTAL_BIKE_SPACES: <br>BIKE_LOCKERS: <br>BIKE_RACKS: <br>ROUTE_1: 40<br>ROUTE_2: 136<br>ROUTE_3: <br>ROUTE_4: <br>ROUTE_5: <br>ROUTE_6: <br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Gilbert Rd and Main St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value/>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value/>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value/>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value/>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value/>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>40</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>136</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value/>
+          </Data>
+          <Data name="ROUTE_4">
+            <value/>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.790022,33.415011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granite Reef Park-and-Ride</name>
+        <description><![CDATA[LOCATION: Granite Reef Rd/McDowell Rd<br>CITY: Scottsdale<br>PUBLIC_OWN: Yes<br>DEDICATED: Yes<br>CONTRACT: No<br>TOTAL_AUTO_SPACES: 4<br>COVERED_SPACES: <br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 0<br>ROUTE_1: 17<br>ROUTE_2: 514<br>ROUTE_3: MLHD<br>ROUTE_4: 68CM<br>ROUTE_5: <br>ROUTE_6: <br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Granite Reef Rd/McDowell Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value>Yes</value>
+          </Data>
+          <Data name="CONTRACT">
+            <value>No</value>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value/>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>17</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>514</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>MLHD</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>68CM</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.901034,33.466812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fountain Hills Park-and-Ride</name>
+        <description><![CDATA[LOCATION: El Lago Blvd and La Montana Dr<br>CITY: Fountain Hills<br>PUBLIC_OWN: Yes<br>DEDICATED: <br>CONTRACT: <br>TOTAL_AUTO_SPACES: <br>COVERED_SPACES: <br>TOTAL_BIKE_SPACES: <br>BIKE_LOCKERS: <br>BIKE_RACKS: <br>ROUTE_1: 514<br>ROUTE_2: <br>ROUTE_3: <br>ROUTE_4: <br>ROUTE_5: <br>ROUTE_6: <br>Address: ]]></description>
+        <styleUrl>#icon-1644-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>El Lago Blvd and La Montana Dr</value>
+          </Data>
+          <Data name="CITY">
+            <value>Fountain Hills</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="DEDICATED">
+            <value/>
+          </Data>
+          <Data name="CONTRACT">
+            <value/>
+          </Data>
+          <Data name="TOTAL_AUTO_SPACES">
+            <value/>
+          </Data>
+          <Data name="COVERED_SPACES">
+            <value/>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value/>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value/>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value/>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>514</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value/>
+          </Data>
+          <Data name="ROUTE_3">
+            <value/>
+          </Data>
+          <Data name="ROUTE_4">
+            <value/>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="Address">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.722698,33.60208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

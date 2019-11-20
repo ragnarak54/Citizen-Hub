@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>transit_centers</name>
+    <description/>
+    <Style id="icon-1522-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>cityhub_transit_centers</name>
+      <Placemark>
+        <name>Chandler Fashion Center Transit Center</name>
+        <description><![CDATA[LOCATION: Frye Rd and Galleria Way<br>CITY: Chandler<br>PUBLIC_OWN: No<br>PNR: No<br>SHELTERS: 2<br>BENCHES: 25<br>TRASH_CANS: 2<br>BUS_BAYS: 4<br>TOTAL_BIKE_SPACES: 6<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 6<br>WATER_FOUNTAIN: 2<br>PUBLIC_ART: No<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 2<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: No<br>ROUTE_1: 72<br>ROUTE_2: 81<br>ROUTE_3: 156<br>Routes: 72, 81, 156<br>ROUTE_4: <br>ROUTE_5: <br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Frye Rd and Galleria Way</value>
+          </Data>
+          <Data name="CITY">
+            <value>Chandler</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>2</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>25</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>2</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>4</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>6</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>2</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>No</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>2</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>No</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>72</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>81</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>156</value>
+          </Data>
+          <Data name="Routes">
+            <value>72, 81, 156</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value/>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.899707,33.298055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Main St and Sycamore Transit Center</name>
+        <description><![CDATA[LOCATION: Main St and Sycamore<br>CITY: Mesa<br>PUBLIC_OWN: Yes<br>PNR: Yes<br>SHELTERS: 11<br>BENCHES: 31<br>TRASH_CANS: 12<br>BUS_BAYS: 7<br>TOTAL_BIKE_SPACES: 13<br>BIKE_LOCKERS: 1<br>BIKE_RACKS: 12<br>WATER_FOUNTAIN: 6<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: Yes<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: Yes<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 6<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: Light Rail<br>ROUTE_2: 30<br>ROUTE_3: 40<br>Routes: Light Rail, 30, 40, 45, 96<br>ROUTE_4: 45<br>ROUTE_5: 96<br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Main St and Sycamore</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>Yes</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>11</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>31</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>12</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>7</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>13</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>1</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>6</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>Yes</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>Yes</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>6</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>30</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>40</value>
+          </Data>
+          <Data name="Routes">
+            <value>Light Rail, 30, 40, 45, 96</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>45</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>96</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.870326,33.415712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Superstition Springs Transit Center</name>
+        <description><![CDATA[LOCATION: Southern Ave and Power Rd<br>CITY: Mesa<br>PUBLIC_OWN: No<br>PNR: Yes<br>SHELTERS: 4<br>BENCHES: 26<br>TRASH_CANS: 10<br>BUS_BAYS: 9<br>TOTAL_BIKE_SPACES: 20<br>BIKE_LOCKERS: 8<br>BIKE_RACKS: 12<br>WATER_FOUNTAIN: 0<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 2<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: No<br>ROUTE_1: 40<br>ROUTE_2: 45<br>ROUTE_3: 61<br>Routes: 40, 45, 61, 108, 184, 533<br>ROUTE_4: 108<br>ROUTE_5: 184<br>ROUTE_6: 533<br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Southern Ave and Power Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Mesa</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="PNR">
+            <value>Yes</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>4</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>26</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>10</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>9</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>20</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>12</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>0</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>2</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>No</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>40</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>45</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>61</value>
+          </Data>
+          <Data name="Routes">
+            <value>40, 45, 61, 108, 184, 533</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>108</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>184</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>533</value>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.689105,33.387643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19th Ave and Montebello Transit Center</name>
+        <description><![CDATA[LOCATION: 19th Ave and Montebello Ave<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>PNR: Yes<br>SHELTERS: 5<br>BENCHES: 10<br>TRASH_CANS: 5<br>BUS_BAYS: 4<br>TOTAL_BIKE_SPACES: 4<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 4<br>WATER_FOUNTAIN: 4<br>PUBLIC_ART: No<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: Yes<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 5<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: Light Rail<br>ROUTE_2: 15<br>ROUTE_3: 60<br>Routes: Light Rail, 15, 19, 60<br>ROUTE_4: <br>ROUTE_5: <br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>19th Ave and Montebello Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>Yes</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>5</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>10</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>5</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>4</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>4</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>No</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>Yes</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>5</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>15</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>60</value>
+          </Data>
+          <Data name="Routes">
+            <value>Light Rail, 15, 19, 60</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value/>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.098996,33.519624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Station</name>
+        <description><![CDATA[LOCATION: Central Ave and Van Buren St<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>PNR: No<br>SHELTERS: 30<br>BENCHES: 92<br>TRASH_CANS: 26<br>BUS_BAYS: 10<br>TOTAL_BIKE_SPACES: 37<br>BIKE_LOCKERS: 22<br>BIKE_RACKS: 15<br>WATER_FOUNTAIN: 8<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: Yes<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: Yes<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 4<br>FARE_OUTLET: Yes<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: Light Rail<br>ROUTE_2: 0<br>ROUTE_3: 1<br>Routes: Light Rail, 0, 1, 3, 7, 8, 10, DASH<br>ROUTE_4: 3<br>ROUTE_5: 7<br>ROUTE_6: 8<br>ROUTE_7: 10<br>ROUTE_8: 15<br>ROUTE_9: DASH<br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Central Ave and Van Buren St</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>30</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>92</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>26</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>10</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>37</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>22</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>15</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>8</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>Yes</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>Yes</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>4</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>Yes</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>1</value>
+          </Data>
+          <Data name="Routes">
+            <value>Light Rail, 0, 1, 3, 7, 8, 10, DASH</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>3</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>7</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_7">
+            <value>10</value>
+          </Data>
+          <Data name="ROUTE_8">
+            <value>15</value>
+          </Data>
+          <Data name="ROUTE_9">
+            <value>DASH</value>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.074293,33.452067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desert Sky Transit Center</name>
+        <description><![CDATA[LOCATION: 7887 W Thomas Rd<br>CITY: Phoenix<br>PUBLIC_OWN: No<br>PNR: No<br>SHELTERS: 1<br>BENCHES: 15<br>TRASH_CANS: 4<br>BUS_BAYS: 4<br>TOTAL_BIKE_SPACES: 0<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 0<br>WATER_FOUNTAIN: 2<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: No<br>ROUTE_1: 29<br>ROUTE_2: 75<br>ROUTE_3: 83<br>Routes: 29, 75, 83, 685, MARY, I10W<br>ROUTE_4: 685<br>ROUTE_5: MARY<br>ROUTE_6: I-10 W RAPID<br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>7887 W Thomas Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>1</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>15</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>4</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>4</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>2</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>No</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>29</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>75</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>83</value>
+          </Data>
+          <Data name="Routes">
+            <value>29, 75, 83, 685, MARY, I10W</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>685</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>MARY</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>I-10 W RAPID</value>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.228648,33.479187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ed Pastor Transit Center</name>
+        <description><![CDATA[LOCATION: Central Ave and Broadway Rd<br>CITY: Phoenix<br>PUBLIC_OWN: No<br>PNR: No<br>SHELTERS: 3<br>BENCHES: 31<br>TRASH_CANS: 18<br>BUS_BAYS: 10<br>TOTAL_BIKE_SPACES: 4<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 4<br>WATER_FOUNTAIN: 4<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: Yes<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: Yes<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: 0<br>ROUTE_2: 7<br>ROUTE_3: 8<br>Routes: 0, 7, 8, 45, 52, C/SM RAPID East, C/SM RAPID West<br>ROUTE_4: 45<br>ROUTE_5: 52<br>ROUTE_6: CSME<br>ROUTE_7: CSMW<br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Central Ave and Broadway Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>3</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>31</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>18</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>10</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>4</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>Yes</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>Yes</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>7</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>8</value>
+          </Data>
+          <Data name="Routes">
+            <value>0, 7, 8, 45, 52, C/SM RAPID East, C/SM RAPID West</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>45</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>52</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>CSME</value>
+          </Data>
+          <Data name="ROUTE_7">
+            <value>CSMW</value>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.074388,33.407053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metrocenter Transit Center</name>
+        <description><![CDATA[LOCATION: Mission Ln and Metro Park W<br>CITY: Phoenix<br>PUBLIC_OWN: No<br>PNR: Yes<br>SHELTERS: 2<br>BENCHES: 31<br>TRASH_CANS: 12<br>BUS_BAYS: 4<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 4<br>WATER_FOUNTAIN: 2<br>PUBLIC_ART: No<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: 27<br>ROUTE_2: 35<br>ROUTE_3: 90<br>Routes: 27, 35, 90, 106, I-17 RAPID<br>ROUTE_4: 106<br>ROUTE_5: I-17 RAPID<br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Mission Ln and Metro Park W</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="PNR">
+            <value>Yes</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>2</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>31</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>12</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>4</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>4</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>2</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>No</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>27</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>35</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>90</value>
+          </Data>
+          <Data name="Routes">
+            <value>27, 35, 90, 106, I-17 RAPID</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>106</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>I-17 RAPID</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.123384,33.572855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Valley Mall Transit Center</name>
+        <description><![CDATA[LOCATION: Tatum Blvd and Paradise Valley Pkwy<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>PNR: Yes<br>SHELTERS: 7<br>BENCHES: 6<br>TRASH_CANS: 5<br>BUS_BAYS: 6<br>TOTAL_BIKE_SPACES: 6<br>BIKE_LOCKERS: 6<br>BIKE_RACKS: 0<br>WATER_FOUNTAIN: 2<br>PUBLIC_ART: No<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: No<br>ROUTE_1: 44<br>ROUTE_2: 138<br>ROUTE_3: <br>Routes: 44, 138<br>ROUTE_4: <br>ROUTE_5: <br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>Tatum Blvd and Paradise Valley Pkwy</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>Yes</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>7</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>6</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>5</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>6</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>2</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>No</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>No</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>44</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>138</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value/>
+          </Data>
+          <Data name="Routes">
+            <value>44, 138</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value/>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.979392,33.604704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunnyslope Transit Center</name>
+        <description><![CDATA[LOCATION: 3rd St and Dunlap Ave<br>CITY: Phoenix<br>PUBLIC_OWN: Yes<br>PNR: Yes<br>SHELTERS: 11<br>BENCHES: 11<br>TRASH_CANS: 10<br>BUS_BAYS: 8<br>TOTAL_BIKE_SPACES: 4<br>BIKE_LOCKERS: 4<br>BIKE_RACKS: 0<br>WATER_FOUNTAIN: 3<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: Yes<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: 0<br>ROUTE_2: 8<br>ROUTE_3: 12<br>Routes: 0, 8, 12, 90, 106, SMART<br>ROUTE_4: 90<br>ROUTE_5: 106<br>ROUTE_6: SMART<br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>3rd St and Dunlap Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Phoenix</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>Yes</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>11</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>11</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>10</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>8</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>4</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>0</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>3</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>Yes</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>0</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>8</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>12</value>
+          </Data>
+          <Data name="Routes">
+            <value>0, 8, 12, 90, 106, SMART</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>90</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>106</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>SMART</value>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.068951,33.567067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skysong Transit Center</name>
+        <description><![CDATA[LOCATION: McDowell Rd and Scottsdale Rd<br>CITY: Scottsdale<br>PUBLIC_OWN: Yes<br>PNR: No<br>SHELTERS: 3<br>BENCHES: 9<br>TRASH_CANS: 3<br>BUS_BAYS: 2<br>TOTAL_BIKE_SPACES: 6<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 6<br>WATER_FOUNTAIN: 0<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: No<br>ROUTE_1: 17<br>ROUTE_2: 56<br>ROUTE_3: 72<br>Routes: 17, 56, 72, 514, Miller Road Trolley<br>ROUTE_4: Miller Road Trolley<br>ROUTE_5: 514<br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>McDowell Rd and Scottsdale Rd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>3</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>9</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>3</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>2</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>6</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>6</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>0</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>No</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>17</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>56</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>72</value>
+          </Data>
+          <Data name="Routes">
+            <value>17, 56, 72, 514, Miller Road Trolley</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>Miller Road Trolley</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>514</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.925884,33.465465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempe Transportation Center</name>
+        <description><![CDATA[LOCATION: 5th St and Forest Ave<br>CITY: Tempe<br>PUBLIC_OWN: Yes<br>PNR: No<br>SHELTERS: 21<br>BENCHES: 44<br>TRASH_CANS: 38<br>BUS_BAYS: 13<br>TOTAL_BIKE_SPACES: 13<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 39<br>WATER_FOUNTAIN: 4<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: Yes<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: Yes<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 3<br>FARE_OUTLET: Yes<br>ON_SITE_SECURITY: Yes<br>ROUTE_1: Light Rail<br>ROUTE_2: 48<br>ROUTE_3: 62<br>Routes: Light Rail, 48, 62, 65, 66, 72, ORBIT Mercury, ORBIT Venus, ORBIT Earth, ORBIT Mars, ORBIT Jupiter<br>ROUTE_4: 65<br>ROUTE_5: 66<br>ROUTE_6: 72<br>ROUTE_7: ORBIT Jupiter<br>ROUTE_8: ORBIT Mercury<br>ROUTE_9: ORBIT Venus<br>ROUTE_10: ORBIT Earth<br>ROUTE_11: ORBIT Mars]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>5th St and Forest Ave</value>
+          </Data>
+          <Data name="CITY">
+            <value>Tempe</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>21</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>44</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>38</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>13</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>13</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>39</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>4</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>Yes</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>Yes</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>3</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>Yes</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>Yes</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>Light Rail</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>48</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>62</value>
+          </Data>
+          <Data name="Routes">
+            <value>Light Rail, 48, 62, 65, 66, 72, ORBIT Mercury, ORBIT Venus, ORBIT Earth, ORBIT Mars, ORBIT Jupiter</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>65</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>66</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value>72</value>
+          </Data>
+          <Data name="ROUTE_7">
+            <value>ORBIT Jupiter</value>
+          </Data>
+          <Data name="ROUTE_8">
+            <value>ORBIT Mercury</value>
+          </Data>
+          <Data name="ROUTE_9">
+            <value>ORBIT Venus</value>
+          </Data>
+          <Data name="ROUTE_10">
+            <value>ORBIT Earth</value>
+          </Data>
+          <Data name="ROUTE_11">
+            <value>ORBIT Mars</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.935965,33.425808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arrowhead Transit Center</name>
+        <description><![CDATA[LOCATION: 75th Ave &amp; Bell Rd<br>CITY: Glendale<br>PUBLIC_OWN: No<br>PNR: No<br>SHELTERS: 1<br>BENCHES: 5<br>TRASH_CANS: 4<br>BUS_BAYS: 1<br>TOTAL_BIKE_SPACES: 8<br>BIKE_LOCKERS: 0<br>BIKE_RACKS: 8<br>WATER_FOUNTAIN: 0<br>PUBLIC_ART: Yes<br>PUBLIC_BATHROOMS: No<br>LIGHTING: Yes<br>EMERG_CALL_BUTTON: No<br>INFO_DISPLAY_BOARD: Yes<br>FARE_VENDING_MACH: 0<br>FARE_OUTLET: No<br>ON_SITE_SECURITY: No<br>ROUTE_1: 67<br>ROUTE_2: 170<br>ROUTE_3: 186<br>Routes: 67, 170, 186<br>ROUTE_4: <br>ROUTE_5: <br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value><![CDATA[75th Ave &amp; Bell Rd]]></value>
+          </Data>
+          <Data name="CITY">
+            <value>Glendale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>No</value>
+          </Data>
+          <Data name="PNR">
+            <value>No</value>
+          </Data>
+          <Data name="SHELTERS">
+            <value>1</value>
+          </Data>
+          <Data name="BENCHES">
+            <value>5</value>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value>4</value>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value>1</value>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value>8</value>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value>0</value>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value>8</value>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value>0</value>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value>Yes</value>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value>No</value>
+          </Data>
+          <Data name="LIGHTING">
+            <value>Yes</value>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value>No</value>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value>Yes</value>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value>0</value>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value>No</value>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value>No</value>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>67</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>170</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>186</value>
+          </Data>
+          <Data name="Routes">
+            <value>67, 170, 186</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value/>
+          </Data>
+          <Data name="ROUTE_5">
+            <value/>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -112.224989,33.643147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Transit Center</name>
+        <description><![CDATA[LOCATION: 90th St and Shea Blvd<br>CITY: Scottsdale<br>PUBLIC_OWN: Yes<br>PNR: <br>SHELTERS: <br>BENCHES: <br>TRASH_CANS: <br>BUS_BAYS: <br>TOTAL_BIKE_SPACES: <br>BIKE_LOCKERS: <br>BIKE_RACKS: <br>WATER_FOUNTAIN: <br>PUBLIC_ART: <br>PUBLIC_BATHROOMS: <br>LIGHTING: <br>EMERG_CALL_BUTTON: <br>INFO_DISPLAY_BOARD: <br>FARE_VENDING_MACH: <br>FARE_OUTLET: <br>ON_SITE_SECURITY: <br>ROUTE_1: 80<br>ROUTE_2: 81<br>ROUTE_3: 514<br>Routes: 80, 81, 514, 511, Trolley<br>ROUTE_4: 511<br>ROUTE_5: Cactus Trolley<br>ROUTE_6: <br>ROUTE_7: <br>ROUTE_8: <br>ROUTE_9: <br>ROUTE_10: <br>ROUTE_11: ]]></description>
+        <styleUrl>#icon-1522-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="LOCATION">
+            <value>90th St and Shea Blvd</value>
+          </Data>
+          <Data name="CITY">
+            <value>Scottsdale</value>
+          </Data>
+          <Data name="PUBLIC_OWN">
+            <value>Yes</value>
+          </Data>
+          <Data name="PNR">
+            <value/>
+          </Data>
+          <Data name="SHELTERS">
+            <value/>
+          </Data>
+          <Data name="BENCHES">
+            <value/>
+          </Data>
+          <Data name="TRASH_CANS">
+            <value/>
+          </Data>
+          <Data name="BUS_BAYS">
+            <value/>
+          </Data>
+          <Data name="TOTAL_BIKE_SPACES">
+            <value/>
+          </Data>
+          <Data name="BIKE_LOCKERS">
+            <value/>
+          </Data>
+          <Data name="BIKE_RACKS">
+            <value/>
+          </Data>
+          <Data name="WATER_FOUNTAIN">
+            <value/>
+          </Data>
+          <Data name="PUBLIC_ART">
+            <value/>
+          </Data>
+          <Data name="PUBLIC_BATHROOMS">
+            <value/>
+          </Data>
+          <Data name="LIGHTING">
+            <value/>
+          </Data>
+          <Data name="EMERG_CALL_BUTTON">
+            <value/>
+          </Data>
+          <Data name="INFO_DISPLAY_BOARD">
+            <value/>
+          </Data>
+          <Data name="FARE_VENDING_MACH">
+            <value/>
+          </Data>
+          <Data name="FARE_OUTLET">
+            <value/>
+          </Data>
+          <Data name="ON_SITE_SECURITY">
+            <value/>
+          </Data>
+          <Data name="ROUTE_1">
+            <value>80</value>
+          </Data>
+          <Data name="ROUTE_2">
+            <value>81</value>
+          </Data>
+          <Data name="ROUTE_3">
+            <value>514</value>
+          </Data>
+          <Data name="Routes">
+            <value>80, 81, 514, 511, Trolley</value>
+          </Data>
+          <Data name="ROUTE_4">
+            <value>511</value>
+          </Data>
+          <Data name="ROUTE_5">
+            <value>Cactus Trolley</value>
+          </Data>
+          <Data name="ROUTE_6">
+            <value/>
+          </Data>
+          <Data name="ROUTE_7">
+            <value/>
+          </Data>
+          <Data name="ROUTE_8">
+            <value/>
+          </Data>
+          <Data name="ROUTE_9">
+            <value/>
+          </Data>
+          <Data name="ROUTE_10">
+            <value/>
+          </Data>
+          <Data name="ROUTE_11">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -111.886569,33.578982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

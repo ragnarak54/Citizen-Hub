@@ -30,7 +30,6 @@
             android:name=".googleMap"
             android:label="@string/title_activity_google_map"></activity>
 
-        <activity android:name=".map" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleInstance"
