@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.View;
 import android.view.WindowManager;
@@ -72,9 +74,14 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.fragment_weather);
     }
 
-    public void goMap(View view) {  setContentView(R.layout.activity_google_map);  }
+    public void goMap(View view) {  // goes to sample layout fragment
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-
+        googleMap frag = new googleMap();
+        fragmentTransaction.replace(R.id.activity_main, frag);
+        fragmentTransaction.commit();
+    }
 }
 
 

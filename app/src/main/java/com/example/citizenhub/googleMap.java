@@ -1,6 +1,8 @@
 package com.example.citizenhub;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -13,9 +15,10 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.maps.android.data.kml.KmlLayer;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
+public class googleMap extends Fragment {
 
     private MapView mMapView;
 
@@ -38,16 +41,16 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.activity_google_map, container, false);
+        container.removeAllViews();
         //set up button listeners
-        show_bus_only();
-        show_metro_only();
-        show_park_only();
-        show_transit_only();
-        show_all();
+        show_bus_only(rootView);
+        show_metro_only(rootView);
+        show_park_only(rootView);
+        show_transit_only(rootView);
+        show_all(rootView);
 //        go_back();
 
         // *** IMPORTANT ***
@@ -57,15 +60,58 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
         if (savedInstanceState != null) {
             mapViewBundle = savedInstanceState.getBundle(MAPVIEW_BUNDLE_KEY);
         }
-        mMapView = (MapView) findViewById(R.id.mapEmbeded);
+        mMapView = (MapView) rootView.findViewById(R.id.mapEmbeded);
         mMapView.onCreate(mapViewBundle);
 
-        mMapView.getMapAsync(this);
+        mMapView.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap googleMap) {
+                //map.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+                mMap = googleMap;
+
+                LatLng campus = new LatLng(33.423514, -111.937178);
+                mMap.addMarker(new MarkerOptions().position(campus).title("Marker on campus"));
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(campus));
+
+                float zoomLevel = 10.0f; //This goes up to 21
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(campus, zoomLevel));
 
 
+                try{
 
+                    park_and_rides = new KmlLayer( mMap, R.raw.park_and_rides, getContext());
+
+                    park_and_rides.addLayerToMap();
+
+                    //parkYes = true;
+
+                    transit_centers = new KmlLayer( mMap, R.raw.transit_centers, getContext());
+
+                    transit_centers.addLayerToMap();
+
+                    //transitYes = true;
+
+                    bus_routes = new KmlLayer( mMap, R.raw.bus_routes, getContext());
+
+                    bus_routes.addLayerToMap();
+
+                    //busYes = true;
+
+                    metro_station_lines = new KmlLayer( mMap, R.raw.metro_stations_lines, getContext());
+
+                    metro_station_lines.addLayerToMap();
+
+                    //metroYes = true;
+
+                }
+                catch (Exception e)
+                {
+                    //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
+                }
+            }
+        });
+        return rootView;
     }
-
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
@@ -80,58 +126,8 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
         mMapView.onSaveInstanceState(mapViewBundle);
     }
 
-
-
-    @Override
-    public void onMapReady(GoogleMap map) {
-        //map.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
-        mMap = map;
-
-        LatLng campus = new LatLng(33.423514, -111.937178);
-        mMap.addMarker(new MarkerOptions().position(campus).title("Marker on campus"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(campus));
-
-        float zoomLevel = 10.0f; //This goes up to 21
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(campus, zoomLevel));
-
-
-        try{
-
-
-
-            park_and_rides = new KmlLayer( map, R.raw.park_and_rides, getApplicationContext());
-
-            park_and_rides.addLayerToMap();
-
-            //parkYes = true;
-
-            transit_centers = new KmlLayer( map, R.raw.transit_centers, getApplicationContext());
-
-            transit_centers.addLayerToMap();
-
-            //transitYes = true;
-
-            bus_routes = new KmlLayer( map, R.raw.bus_routes, getApplicationContext());
-
-            bus_routes.addLayerToMap();
-
-            //busYes = true;
-
-            metro_station_lines = new KmlLayer( map, R.raw.metro_stations_lines, getApplicationContext());
-
-            metro_station_lines.addLayerToMap();
-
-            //metroYes = true;
-
-        }
-        catch (Exception e)
-        {
-            //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
-        }
-    }
-
-    public void show_bus_only(){
-        show_bus_only = (Button) findViewById(R.id.bus);
+    public void show_bus_only(View rootView){
+        show_bus_only = (Button) rootView.findViewById(R.id.bus);
 
         show_bus_only.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -149,8 +145,8 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
             }
         });
     }
-    public void show_metro_only(){
-        show_metro_only = (Button) findViewById(R.id.metro);
+    public void show_metro_only(View rootView){
+        show_metro_only = (Button) rootView.findViewById(R.id.metro);
 
         show_metro_only.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -169,8 +165,8 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
             }
         });
     }
-    public void show_park_only(){
-        show_park_only = (Button) findViewById(R.id.park);
+    public void show_park_only(View rootView){
+        show_park_only = (Button) rootView.findViewById(R.id.park);
 
         show_park_only.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -189,8 +185,8 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
             }
         });
     }
-    public void show_transit_only(){
-        show_transit_only = (Button) findViewById(R.id.transit);
+    public void show_transit_only(View rootView){
+        show_transit_only = (Button) rootView.findViewById(R.id.transit);
 
         show_transit_only.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -210,8 +206,8 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
         });
     }
 
-    public void show_all(){
-        show_all = (Button) findViewById(R.id.all);
+    public void show_all(View rootView){
+        show_all = (Button) rootView.findViewById(R.id.all);
 
         show_all.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -246,19 +242,15 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
 //        });
 //    }
 
-    public void goHome(View view) {
-        //goes home
-        setContentView(R.layout.activity_main);
-    }
 
     @Override
-    protected void onPause() {
+    public void onPause() {
         mMapView.onPause();
         super.onPause();
     }
 
     @Override
-    protected void onDestroy() {
+    public void onDestroy() {
         mMapView.onDestroy();
         super.onDestroy();
     }
@@ -270,13 +262,13 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
     }
 
     @Override
-    protected void onResume() {
+    public void onResume() {
         super.onResume();
         mMapView.onResume();
     }
 
     @Override
-    protected void onStart() {
+    public void onStart() {
         super.onStart();
         mMapView.onStart();
 
@@ -284,7 +276,7 @@ public class googleMap extends AppCompatActivity implements OnMapReadyCallback {
     }
 
     @Override
-    protected void onStop() {
+    public void onStop() {
         super.onStop();
         mMapView.onStop();
     }
