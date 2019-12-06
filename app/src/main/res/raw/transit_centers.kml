@@ -3,16 +3,14 @@
   <Document>
     <name>transit_centers</name>
     <description/>
-    <Style id="icon-1522-FF5252-labelson">
-      <IconStyle>
+          <IconStyle>
         <color>ff5252ff</color>
         <scale>1</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
-    </Style>
-    <Folder>
+        <Folder>
       <name>cityhub_transit_centers</name>
       <Placemark>
         <name>Chandler Fashion Center Transit Center</name>

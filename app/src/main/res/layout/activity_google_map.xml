@@ -15,7 +15,7 @@
 
         <Button
             android:id="@+id/back"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
@@ -27,54 +27,6 @@
             android:text="Go home" />
 
         <Button
-            android:id="@+id/transit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/metro"
-            android:layout_marginStart="22dp"
-            android:layout_marginLeft="22dp"
-            android:layout_marginTop="13dp"
-            android:layout_toEndOf="@+id/park"
-            android:layout_toRightOf="@+id/park"
-            android:text="Show transit" />
-
-        <Button
-            android:id="@+id/park"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/bus"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="12dp"
-            android:layout_toEndOf="@+id/all"
-            android:layout_toRightOf="@+id/all"
-            android:text="Show park" />
-
-        <Button
-            android:id="@+id/metro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="34dp"
-            android:layout_marginLeft="34dp"
-            android:layout_marginTop="23dp"
-            android:layout_toEndOf="@+id/bus"
-            android:layout_toRightOf="@+id/bus"
-            android:text="Show metro" />
-
-        <Button
-            android:id="@+id/bus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="33dp"
-            android:layout_marginLeft="33dp"
-            android:layout_marginTop="23dp"
-            android:layout_toEndOf="@+id/back"
-            android:layout_toRightOf="@+id/back"
-            android:text="Show bus" />
-
-        <Button
             android:id="@+id/all"
             android:layout_width="100dp"
             android:layout_height="50dp"
@@ -84,7 +36,51 @@
             android:layout_marginStart="12dp"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="13dp"
-            android:text="Show All" />
+            android:text="REFRESH" />
+
+        <CheckBox
+            android:id="@+id/check_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_park"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="28dp"
+            android:layout_toEndOf="@+id/check_metro"
+            android:text="SHOW BUS" />
+
+        <CheckBox
+            android:id="@+id/check_metro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_transit"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="29dp"
+            android:layout_toEndOf="@+id/all"
+            android:text="SHOW METRO"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_park"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/check_transit"
+            android:text="SHOW PARK"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_transit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="29dp"
+            android:layout_toEndOf="@+id/back"
+            android:text="SHOW TRANSIT"></CheckBox>
+
+
     </RelativeLayout>
 
     <RelativeLayout

@@ -1,9 +1,11 @@
 package com.example.citizenhub;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -17,6 +19,8 @@ import com.google.maps.android.data.kml.KmlLayer;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 public class googleMap extends Fragment {
 
@@ -26,11 +30,11 @@ public class googleMap extends Fragment {
 
     //private boolean busYes, metroYes, parkYes, transitYes = false;
 
-    Button show_bus_only;
-    Button show_metro_only;
-    Button show_park_only;
-    Button show_transit_only;
-    Button show_all;
+    CheckBox add_bus;
+    CheckBox add_metro;
+    CheckBox add_park;
+    CheckBox add_transit;
+    Button refresh;
 //    Button go_back;
 
     private KmlLayer bus_routes;
@@ -40,18 +44,29 @@ public class googleMap extends Fragment {
 
     private GoogleMap mMap;
 
+    private boolean busYes;
+    private boolean metroYes;
+    private boolean parkYes;
+    private boolean transitYes;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.activity_google_map, container, false);
         container.removeAllViews();
         //set up button listeners
-        show_bus_only(rootView);
-        show_metro_only(rootView);
-        show_park_only(rootView);
-        show_transit_only(rootView);
-        show_all(rootView);
-//        go_back();
+        add_bus(rootView);
+        add_metro(rootView);
+        add_park(rootView);
+        add_transit(rootView);
+        refresh(rootView);
+//      go_back();
+
+        //set up all booleans
+        busYes = false;
+        metroYes = false;
+        parkYes = false;
+        transitYes = false;
 
         // *** IMPORTANT ***
         // MapView requires that the Bundle you pass contain _ONLY_ MapView SDK
@@ -81,6 +96,7 @@ public class googleMap extends Fragment {
 
                     park_and_rides = new KmlLayer( mMap, R.raw.park_and_rides, getContext());
 
+                    //park_and_rides.data.setStyle({fillColor: red});
                     park_and_rides.addLayerToMap();
 
                     //parkYes = true;
@@ -126,100 +142,87 @@ public class googleMap extends Fragment {
         mMapView.onSaveInstanceState(mapViewBundle);
     }
 
-    public void show_bus_only(View rootView){
-        show_bus_only = (Button) rootView.findViewById(R.id.bus);
+    public void add_bus(View rootView){
+        add_bus = (CheckBox) rootView.findViewById(R.id.check_bus);
 
-        show_bus_only.setOnClickListener(new View.OnClickListener() {
+        add_bus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mMap.clear();
-                try {
-                    bus_routes.addLayerToMap();
-
-                    //busYes = true;
-                }
-                catch (Exception e)
-                {
-                    //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
-                }
+                if(add_bus.isChecked())
+                    busYes = true;
+                else
+                    busYes = false;
             }
         });
     }
-    public void show_metro_only(View rootView){
-        show_metro_only = (Button) rootView.findViewById(R.id.metro);
+    public void add_metro(View rootView){
+        add_metro = (CheckBox) rootView.findViewById(R.id.check_metro);
 
-        show_metro_only.setOnClickListener(new View.OnClickListener() {
+        add_metro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mMap.clear();
-                try {
-                    metro_station_lines.addLayerToMap();
 
-                    //metroYes = true;
-                }
-                catch (Exception e)
-                {
-                    //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
-                }
+                if(add_metro.isChecked())
+                    metroYes = true;
+                else
+                    metroYes = false;
 
             }
         });
     }
-    public void show_park_only(View rootView){
-        show_park_only = (Button) rootView.findViewById(R.id.park);
+    public void add_park(View rootView){
+        add_park = (CheckBox) rootView.findViewById(R.id.check_park);
 
-        show_park_only.setOnClickListener(new View.OnClickListener() {
+        add_park.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mMap.clear();
-                try {
-                    park_and_rides.addLayerToMap();
 
-                    //parkYes = true;
-                }
-                catch (Exception e)
-                {
-                    //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
-                }
-
+                if(add_park.isChecked())
+                    parkYes = true;
+                else
+                    parkYes = false;
             }
         });
     }
-    public void show_transit_only(View rootView){
-        show_transit_only = (Button) rootView.findViewById(R.id.transit);
+    public void add_transit(View rootView){
+        add_transit = (CheckBox) rootView.findViewById(R.id.check_transit);
 
-        show_transit_only.setOnClickListener(new View.OnClickListener() {
+        add_transit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mMap.clear();
-                try {
-                    transit_centers.addLayerToMap();
 
-                    //transitYes = true;
-                }
-                catch (Exception e)
-                {
-                    //Toast.makeText(getApplicationContext(),"Exception for Map", Toast.LENGTH_SHORT.show());
-                }
-
+                if(add_transit.isChecked())
+                    transitYes = true;
+                else
+                    transitYes = false;
             }
         });
     }
 
-    public void show_all(View rootView){
-        show_all = (Button) rootView.findViewById(R.id.all);
+    public void refresh(View rootView){
+        refresh = (Button) rootView.findViewById(R.id.all);
 
-        show_all.setOnClickListener(new View.OnClickListener() {
+        refresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mMap.clear();
                 try {
-                    bus_routes.addLayerToMap();
-                    metro_station_lines.addLayerToMap();
-                    park_and_rides.addLayerToMap();
-                    transit_centers.addLayerToMap();
-
-                    //transitYes = true;
+                    if(busYes)
+                    {
+                        bus_routes.addLayerToMap();
+                    }
+                    if(metroYes)
+                    {
+                        metro_station_lines.addLayerToMap();
+                    }
+                    if(parkYes)
+                    {
+                        park_and_rides.addLayerToMap();
+                    }
+                    if(transitYes)
+                    {
+                        transit_centers.addLayerToMap();
+                    }
                 }
                 catch (Exception e)
                 {
@@ -241,6 +244,13 @@ public class googleMap extends Fragment {
 //            }
 //        });
 //    }
+
+    public void goHome(View view) {
+        Intent homePage= new Intent(getActivity(),MainActivity.class);
+        getActivity().startActivity(homePage);
+    }
+
+
 
 
     @Override
